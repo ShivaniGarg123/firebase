@@ -9,6 +9,8 @@
 </body>
     
     <script src="https://www.gstatic.com/firebase/4.8.2/firebase.js"></script>
+<script src="https://www.gstatic.com/firebasejs/4.8.2/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/4.8.2/firebase-firestore.js"></script>
 <script>
     var firebaseConfig = {
         apiKey: "AIzaSyAJXVfjJXzR2QBxH4cHPsqpwVJvkxRxlhY",
@@ -21,6 +23,7 @@
     };
     // Initialize Firebase
     firebase.initializeApp(firebaseConfig);
+    let firestore = firebase.firestore();
 
 </script>
 <script src="index.js"></script>
